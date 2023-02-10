@@ -25,6 +25,11 @@ function merge(arr1, arr2) {
     j++;
   }
 
+  // this one liner works too but higher space complexity?
+  // i < arr1.length
+  //   ? res.push(...arr1.slice(i))
+  //   : res.push(...arr2.slice(j));
+
   return res;
 }
 
