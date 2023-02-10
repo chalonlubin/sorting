@@ -14,8 +14,4 @@ function bubbleSort(arr) {
   return arr;
 }
 
-let a = [5, 3, 4, 1, 2];
-
-console.log("🚀 ~ file: bubble.js:19 ~ bubbleSort(a);", bubbleSort(a))
-
 module.exports = bubbleSort;
